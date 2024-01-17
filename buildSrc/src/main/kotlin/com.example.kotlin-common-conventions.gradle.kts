@@ -34,7 +34,7 @@ dependencies {
 
 pitest {
     targetClasses.set(listOf("com.example.*"))
-    pitestVersion.set("1.14.2")
+    pitestVersion.set("1.15.3")
     junit5PluginVersion.set("1.2.0")
     outputFormats.set(listOf("XML", "HTML"))
     exportLineCoverage.set(true)
